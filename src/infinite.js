@@ -44,6 +44,7 @@ function Infinite() {
     'Loading...'
   ) : (
     <>
+      <h2>Infinite Movies / Page {page}</h2>
       {info.map((movie) => (
         <Container>{movie.title}</Container>
       ))}
